@@ -1,0 +1,7 @@
+/node_modules
+/.idea
+/.vscode
+/nbproject
+npm-debug.log
+yarn-error.log
+.env

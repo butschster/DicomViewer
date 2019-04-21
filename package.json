@@ -1,0 +1,43 @@
+{
+  "name": "dicomviewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/butschster/DicomViewer.git"
+  },
+  "keywords": [
+    "dicom",
+    "vuejs",
+    "viewer"
+  ],
+  "author": "Pavel Buchnev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/butschster/DicomViewer/issues"
+  },
+  "homepage": "https://github.com/butschster/DicomViewer#readme",
+  "devDependencies": {
+    "axios": "^0.18",
+    "bootstrap": "^4.2.1",
+    "cross-env": "^5.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2",
+    "laravel-mix": "^4.0.13",
+    "lodash": "^4.17.5",
+    "popper.js": "^1.14.6",
+    "resolve-url-loader": "^2.3.1",
+    "sass": "^1.16.0",
+    "sass-loader": "^7.1.0",
+    "vue": "^2.5.22",
+    "vue-loader": "^15.5.1",
+    "vue-template-compiler": "^2.5.22",
+    "cornerstone-core": "^2.2.8",
+    "cornerstone-math": "^0.1.7",
+    "cornerstone-tools": "^3.7",
+    "cornerstone-web-image-loader": "^2.1.1",
+    "hammerjs": "^2.0.8"
+  }
+}
