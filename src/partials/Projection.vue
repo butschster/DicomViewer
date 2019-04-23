@@ -25,10 +25,10 @@
 </template>
 
 <script>
-    import {ImageViewer} from '../ImageViewer'
-    import Buttons from './Projection/Buttons'
-    import PictogramBtn from './PictogramBtn'
-    import ProjectionBtn from './ProjectionBtn'
+    import {ImageViewer} from '../ImageViewer.js'
+    import Buttons from './Projection/Buttons.vue'
+    import PictogramBtn from './PictogramBtn.vue'
+    import ProjectionBtn from './ProjectionBtn.vue'
 
     export default {
         components: {
@@ -45,7 +45,7 @@
             }
         },
         mounted() {
-            Bus.$on('view.changed', () => {
+            this.$viewerEvents.$on('view.changed', () => {
                 this.destroy()
                 this.init()
             })

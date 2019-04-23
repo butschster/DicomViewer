@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dicom viewer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script type="text/javascript" src="../dist/dicom-viewer.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <dicom-viewer :images="images"></dicom-viewer>
+    </div>
+    <script type="text/javascript">
+        new Vue({
+            el: '#app',
+            data: function() {
+                return {
+                    images: {
+                        "rmlo":{
+                            "type_name":"rmlo",
+                            "url":"http://localhost/rlmo.jpg",
+                        },
+                        "lmlo":{
+                            "type_name":"lmlo",
+                            "url":"http://localhost/lmlo.jpg",
+                        },
+                        "rcc":{
+                            "type_name":"rcc",
+                            "url":"http://localhost/rcc.jpg",
+                        },
+                        "lcc":{
+                            "type_name":"lcc",
+                            "url":"http://localhost/rcc.jpg",
+                        }
+                    }
+                }
+            }
+        })
+    </script>
+</body>
+</html>
