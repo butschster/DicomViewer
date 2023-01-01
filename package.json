@@ -33,16 +33,16 @@
     "jquery": "^3.2",
     "lodash": "^4.17.5",
     "node-sass": "^4.11.0",
-    "resolve-url-loader": "^2.3.1",
+    "resolve-url-loader": "^5.0.0",
     "sass": "^1.16.0",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^13.2.0",
     "vue": "^2.5.22",
-    "vue-loader": "^15.5.1",
+    "vue-loader": "^17.0.1",
     "vue-template-compiler": "^2.5.22",
-    "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.1",
-    "css-loader": "^2.1.1",
-    "file-loader": "^3.0.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "css-loader": "^6.7.3",
+    "file-loader": "^6.2.0",
     "terser-webpack-plugin": "^1.2.3"
   }
 }
